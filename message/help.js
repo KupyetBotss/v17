@@ -1,16 +1,16 @@
 exports.infobot = (prefix) => {
 return`• ----------[ *INFO BOT* ]----------
-• *NAMA BOT :* Ramdani Botz
-• *NOMOR BOT :* 6288296339947
-• *NAMA OWNER :* Ramdani Official
-• *NOMOR OWNER :* 6289512545999
-• *LINK :* wa.me/6289512545999
-• *CREATOR :* RAMDANI OFFICIAL
+• *NAMA BOT :* KupyetBotz
+• *NOMOR BOT :* 62881037397248
+• *NAMA OWNER :* JuniArta
+• *NOMOR OWNER :* 6287752078682
+• *LINK :* wa.me/6287752078682
+• *CREATOR :* JUNIARTA
 • *BASE ORI :* RAMDANI OFFICIAL
 • *PREFIX :* MULTI PREFIX
 • *FITUR :* 500+
 • *VERSION :* 17.0.0
-• *NOTES :* JIKA ADA YG ERROR FIX SENDIRI, SOALNYA PAKE REST API GUA, JELEK NGAB:)
+• *NOTES :* KONTOD LU BHA:)
 `
 }
 exports.rulesbot = (prefix) => {
