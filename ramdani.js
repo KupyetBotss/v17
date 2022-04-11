@@ -7094,21 +7094,21 @@ freply('_' + err + '_\n\n' + js)
 
 		if (budy.includes(`bot`)) {
 
-                  freply(`Iya gw Bot, Gak seneng lu?`)
+                  freply(`_Iya gw Bot, Gak seneng lu?_`)
 
                   }
 
 
-		if (budy.includes(`Suastiastu ada apa?`)) {
+		if (budy.includes(`Suastiastu`)) {
 
-                  freply(`Suastiastu ${pushname}`)
+                  freply(`Suastiastu, ada apa?`)
 
                   }
 
 
 		if (budy.includes(`P`)) {
 
-                  freply(`Salam dulu napa suastiastu kek.`)
+                  freply(`*Pa pe pa pe, Ga sopan.*`)
 
                   }
 
